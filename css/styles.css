@@ -83,3 +83,96 @@ cursor: pointer;
         width:100%;
     }
 }
+/*--------------------------slide menu-------------*/
+.side-menu{
+    height:79%;
+    width: 15%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: #ddd;
+}
+.side-menu ul{
+    margin-left:10px;
+}
+.side-menu ul li{
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.side-menu ul li:hover{
+    color: orange;
+}
+.fa-angle-right{
+margin-top: 4px;
+margin-right: 8px;
+float: right;
+}
+/*-------------------------slider image--------------*/
+.slider{
+   float:left;
+   width: 85%;
+}
+/*---------------------catalogue----------------*/
+.featured-categories {
+margin: 50px 0;
+}
+.featured-categories img {
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.featured-categories img:hover {
+    transform: scale(1.2);
+}
+/*---------------------on sale-------------------*/
+.title-box {
+    background-color: orange;
+    color: #fff;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+} 
+/*----------------------product-------------*/
+.overlay-right {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+}
+.overlay-right  .fa {  
+cursor:pointer;
+background-color: #ddd;
+color: #000;
+height: 35px;
+width: 35px;
+font-size: 20px;
+padding:7px;
+margin-top:5%;
+margin-bottom: 5%;
+}
+.overlay-right .btn-secondary {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.featured-categories:hover .overlay-right {
+opacity: 1;
+margin-left: 5%;
+transition: 0.5s;
+}
+.product-bottom .fa {
+    color: orange;
+    font-size: 10px;
+}
+.product-bottom h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
